@@ -35,7 +35,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             julioapm/rotten-potatoes:latest
             julioapm/rotten-potatoes:{{ github.run_number }}
             
